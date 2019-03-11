@@ -3,7 +3,10 @@
     <div class="head">
       <div class="headTop">
         <img src="/static/imgs/home/indexLogo-a90bdaae6b.png"/>
-        <input/>
+        <div class="cateHead">
+          <i class="iconfont icon-fangdajing"></i>
+          <span>搜索商品，共9999款好物</span>
+        </div>
         <button>登录</button>
       </div>
       <div class="headBottom">
@@ -353,11 +356,16 @@
         img
           width 138px
           height 40px
-        input
+        .cateHead
+          border 1px solid #eee
           width 442px
           height 56px
           border-radius 10px
-          background #eee
+          background-color #eeeeee
+          text-align center
+          line-height 56px
+          i
+            font-size 30px
         button
           width 76px
           height 40px

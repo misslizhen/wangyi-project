@@ -23,6 +23,7 @@
       {
         path:'/cate',
         component:Cate,
+        redirect:'/cate/cateList',
         children:[
           {
             path:'/cate/cateList',
